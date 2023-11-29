@@ -1,0 +1,41 @@
+:root {
+	--grey-shade: #e2e8f0;
+	--nav-bg-color: #1992d4;
+	--main-bg-color: var(--grey-shade);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.icon {
+	height: 24px;
+	width: 24px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.img-small {
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+}
+
+.img-medium {
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+.header-greeting {
+	align-self: end;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.greeting-img {
+	background-color: orangered;
+	flex-shrink: 0;
+}
+
+.greeting-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.greeting-title {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.greeting-name {
+	font-weight: 900;
+	font-size: 22px;
+}

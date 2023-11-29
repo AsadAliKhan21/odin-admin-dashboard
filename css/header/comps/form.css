@@ -1,0 +1,21 @@
+form {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 28px 0.8fr;
+	gap: 8px;
+}
+
+form input {
+	align-self: center;
+	height: 28px;
+	background-color: var(--grey-shade);
+	border: none;
+	border-radius: 1000px;
+}
+
+form button.icon {
+	background-image: url(../../../img/header/magnify.svg);
+	border: none;
+	background-color: #ffffff00;
+	order: -1;
+}

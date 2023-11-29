@@ -1,0 +1,33 @@
+.header-profile {
+	justify-self: end;
+	display: flex;
+	align-items: center;
+	gap: 36px;
+}
+
+.header-profile .img-profile {
+	background-color: orangered;
+	flex-shrink: 0;
+}
+
+.header-profile button {
+	flex-shrink: 0;
+	height: 36px;
+	width: 36px;
+	border: none;
+	background-color: #fff;
+}
+
+.header-profile button:hover {
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+
+.header-profile button:active {
+	background-color: #eaeaea;
+}
+
+.profile-name {
+	font-weight: 900;
+	font-size: 18px;
+}

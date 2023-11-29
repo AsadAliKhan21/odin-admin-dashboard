@@ -1,0 +1,42 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	gap: 42px;
+	padding: 16px;
+	padding-right: 48px;
+	background-color: var(--nav-bg-color);
+	color: #fff;
+}
+
+.nav-header {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.nav-header .favicon {
+	height: 48px;
+	width: 48px;
+}
+
+.nav-main-list,
+.nav-secondary-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.nav-main-list li a,
+.nav-secondary-list li a {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	transition: all 0.25s ease;
+}
+
+.nav-main-list li a:hover,
+.nav-secondary-list li a:hover {
+	transform: translate(3%, 0);
+	scale: 1.05;
+	/* background-color: var(--blue-shade); */
+}

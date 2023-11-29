@@ -1,0 +1,4 @@
+.main {
+	background-color: var(--main-bg-color);
+	padding: 16px min(3.5%, 42px);
+}

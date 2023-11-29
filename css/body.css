@@ -1,0 +1,21 @@
+body {
+	font-family: "Roboto", sans-serif;
+	display: grid;
+	grid-template-columns: minmax(min-content, 178px) 1fr;
+	grid-template-rows: minmax(72px, min-content) 1fr;
+	grid-template-areas:
+		"nav header"
+		"nav main";
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.header {
+	grid-area: header;
+}
+
+.main {
+	grid-area: main;
+}

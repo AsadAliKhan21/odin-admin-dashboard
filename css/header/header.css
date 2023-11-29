@@ -1,0 +1,12 @@
+@import url("comps/form.css");
+@import url("comps/header-profile.css");
+@import url("comps/greeting.css");
+@import url("comps/buttons.css");
+
+.header {
+	padding: 14px min(4%, 48px);
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: repeat(2, minmax(min-content, 1fr));
+	column-gap: 24px;
+}
