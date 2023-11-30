@@ -1,0 +1,39 @@
+.announcements .container {
+	background-color: #fff;
+	padding: 32px 24px 24px 24px;
+	border-radius: 8px;
+
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.075);
+}
+
+.announcements .container ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.announcements .container ul li:first-child {
+	padding-bottom: 18px;
+}
+
+.announcements .container ul li:not(:first-child) {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-top: 1px solid var(--grey-shade);
+}
+
+.announcement-title {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.announcement-desc {
+	font-size: 14px;
+	line-height: 1.3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	line-clamp: 3;
+	-webkit-line-clamp: 3;
+	color: var(--grey-dark-shade);
+}

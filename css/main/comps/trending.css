@@ -1,0 +1,39 @@
+.trending .container {
+	background-color: #fff;
+	padding: 24px;
+	border-radius: 8px;
+
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.075);
+
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.trending .container .user {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.user .user-text .user-feedback {
+	color: var(--grey-dark-shade);
+}
+
+.user .img-small {
+	flex-shrink: 0;
+}
+
+.user-img-1 {
+	background-color: rgb(39, 137, 249);
+}
+
+.user-img-2 {
+	background-color: orangered;
+}
+.user-img-3 {
+	background-color: violet;
+}
+.user-img-4 {
+	background-color: red;
+}

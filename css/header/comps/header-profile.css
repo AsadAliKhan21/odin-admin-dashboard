@@ -2,7 +2,7 @@
 	justify-self: end;
 	display: flex;
 	align-items: center;
-	gap: 36px;
+	gap: 24px;
 }
 
 .header-profile .img-profile {
@@ -16,6 +16,8 @@
 	width: 36px;
 	border: none;
 	background-color: #fff;
+
+	transition: all 0.2s;
 }
 
 .header-profile button:hover {
@@ -25,9 +27,13 @@
 
 .header-profile button:active {
 	background-color: #eaeaea;
+	/* transform: translate(); */
+	translate: 0 -2px;
+	/* scale: ; */
+	/* rotate: -15deg; */
 }
 
 .profile-name {
 	font-weight: 900;
-	font-size: 18px;
+	font-size: 20px;
 }

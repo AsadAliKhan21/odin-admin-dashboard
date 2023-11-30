@@ -1,4 +1,26 @@
+@import url("comps/projects.css");
+@import url("comps/announcements.css");
+@import url("comps/trending.css");
+
 .main {
 	background-color: var(--main-bg-color);
-	padding: 16px min(3.5%, 42px);
+	padding: 32px min(3.5%, 42px);
+	padding-right: min(3.5%, 56px);
+
+	display: grid;
+	grid-template-columns: 1fr minmax(min-content, 360px);
+	grid-template-rows: repeat(2, max-content);
+	gap: 48px;
+}
+
+.projects {
+	grid-row: 1 / -1;
+}
+
+.announcements {
+	grid-row: 1;
+}
+
+.trending {
+	grid-row: 2;
 }

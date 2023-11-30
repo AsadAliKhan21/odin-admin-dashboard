@@ -1,5 +1,8 @@
 :root {
+	--grey-dark-shade: #5f5f5f;
 	--grey-shade: #e2e8f0;
+	--blue-normal: #1992d4;
+	--blue-shade: #0c98e3;
 	--nav-bg-color: #1992d4;
 	--main-bg-color: var(--grey-shade);
 }
@@ -38,4 +41,10 @@ button:hover {
 	height: 64px;
 	width: 64px;
 	border-radius: 50%;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 500;
+	padding-bottom: 12px;
 }
